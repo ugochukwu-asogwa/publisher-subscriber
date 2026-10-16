@@ -27,6 +27,8 @@ setup(
         'console_scripts': [
             "publisher = pub_sub_pkg.publisher:main",
             "subscriber = pub_sub_pkg.subscriber:main",
+            "server = pub_sub_pkg.server:main",
+            "client = pub_sub_pkg.client:main",
         ],
     },
 )
